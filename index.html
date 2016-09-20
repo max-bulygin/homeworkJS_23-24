@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="cardboard">
+    <main class="paper">
+        <header class="header clearfix">
+            <h1>Todo List</h1>
+                <span class="icon icon-plus-squared-alt" id="addTaskIcon">
+                    <span id="addTaskHint">Add Task</span>
+                </span>
+        </header>
+        <ul class="todos" id="todoList">
+            <!--List of ToDos goes here-->
+            <li class="todos__item">
+                <input type="checkbox">
+                <span class="task">Read the book</span>
+            </li>
+            <li class="todos__item">
+                <input type="checkbox">
+                <span class="task">Buy groceries</span>
+            </li>
+            <li class="todos__item">
+            <input type="checkbox">
+            <span class="task">Waster the plants</span>
+            </li>
+        </ul>
+        <div class="paginator">
+            <span class="icon icon-angle-right" id="nextPage"></span>
+            <span class="icon icon-angle-left" id="prevPage"></span>
+        </div>
+    </main>
+</div>
+<script data-main="js/app.js" src="js/require.js"></script>
+<!--<script src="js/todoMVC.js"></script>-->
+</body>
+</html>
