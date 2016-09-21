@@ -9,7 +9,6 @@ function () {
     }
 
     View.prototype = {
-        model: model,
         createNewTaskHTML: function (taskString) {
             var listItem = document.createElement("li");
 
